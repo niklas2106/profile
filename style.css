@@ -1,0 +1,106 @@
+h1,h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 2.0rem;
+}
+
+h2{
+  font-size: 1.4rem;
+}
+
+body {
+  background-color: rgb(240,240,240);
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: 'PT Serif', serif;
+  line-height: 1.6;
+  font-size: 15px;
+
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: white ;
+}
+
+a:hover {
+  color: rgb(150,150,150);
+}
+
+.profil-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.black-background {
+  background: rgb(27,27,27);
+  padding: 30px;
+  margin: 30px;
+  font-weight: inherit;
+  border-radius: 4px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn {
+  text-decoration: none;
+  background: rgb(27,27,27);
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: rgb(150,150,150);
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
